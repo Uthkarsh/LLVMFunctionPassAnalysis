@@ -1,0 +1,37 @@
+The make file has two rules for Function Call Analysis, Arguments count check and Type 
+checking. 
+
+The rules and paths of them are as follows:
+------------------------------------------
+
+make typeCheck
+
+make funcCall -- Prints the name of the functions and also the number of times the functions have been called in that particular file. 
+
+
+make typeCheck -- First checks the correctness of the number of arguments passed by the caller and actual number of arguments in the function definition. 
+It also checks if the type of arguemnts are different. 
+
+
+The tests directory contains the required test .c files. There is a makefile too.
+
+The command: make mytest2.bc
+compiles two files and links them for the purpose of checking. They have all the required type of discrepancies that the two passes check. 
+
+Procedure: 
+
+//in directory test: 
+
+make mytest2.bc				// Compiled with the -g (Clang) option for debugging purposes. 
+
+// In directory lib
+
+make
+make funcCall
+make typeCheck
+
+
+// Any changes to the test file can be done to either mytest2a.c and mytest2b.c. 
+
+
+
