@@ -31,7 +31,7 @@ make funcCall
 make typeCheck
 
 
-// Any changes to the test file can be done to either mytest2a.c and mytest2b.c. 
+// Any changes to the test file can be done to either mytest2a.c or mytest2b.c. 
 
 
 
