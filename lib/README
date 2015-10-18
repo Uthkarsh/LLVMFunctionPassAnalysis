@@ -35,3 +35,12 @@ make typeCheck
 
 
 
+
+Graphviz Visualization:
+-----------------------
+
+The .dot file from the -dot-callgraph pass of the optimizer and the corresponding screenshot of the visualization of the .dot file using graphviz is present in the root directory. 
+
+
+ASSUMPTION: The folder cs565 which has been submitted assumes that it is in the LLVM root. So please make sure that you copy this folder in the llvm root and then run the commands. 
+
